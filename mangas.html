@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangas - Sepa la Bola</title>
+    <link rel="icon" href="C:\Users\fmisa\Music\corazon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #f99cd4;
+            font-family: 'Inter', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #000;
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(255,255,255,0.2);
+        }
+
+        h1 {
+            color: #440034;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: rgba(255, 255, 255, 0.92);
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .manga-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .manga-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .manga-card:hover {
+            transform: scale(1.05);
+        }
+
+        .manga-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .manga-card p {
+            padding: 10px;
+            margin: 0;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mangas</h1>
+        <p>Contenido de mangas que iré subiendo</p>
+    </header>
+
+    <div class="content">
+        <h2>Los demas estan vacios jaja</h2>
+        <p>Aquí aparecerán los mangas que vaya agregando.</p>
+
+        <!-- Ejemplo de grid de mangas (puedes ir añadiendo más) -->
+        <div class="manga-grid">
+            <div class="manga-card">
+                <a href="bibliomania.html" class="image-link"> 
+                <img src="C:\Users\fmisa\Downloads\portada.jpg" alt="Manga 1"
+                alt="Ir a Bibliomania"
+                class="featured-image">
+                </a>
+                <p>Bibliomania</p>
+
+
+            </div>
+            <div class="manga-card">
+                <img src="C:\Users\fmisa\Downloads\no entar.jpg" alt="Manga 2"> 
+                <p>no entar</p>
+            </div>
+            <div class="manga-card">
+                <img src= "C:\Users\fmisa\Downloads\no entar.jpg" alt="Manga 3">
+                <p>no entrar</p>
+            </div>
+        </div>
+
+        <br><br>
+        <a href="myhtml.html" style="color: #440034; font-size: 18px;">volver al inicio</a>
+    </div>
+</body>
+</html>
